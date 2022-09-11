@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: rubik;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+    background-color: white;
+    z-index: 10;
+}
+
+header img{
+    width: 170px;
+    height: 30px;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li:not(:last-child){
+    margin-right: 40px;
+}
+
+header ul li:last-child a{
+    color: hsl(0, 94%, 66%);
+    border: solid 2px hsl(0, 94%, 66%);
+    padding: 7px 30px;  
+    border-radius: 5px;  
+}
+
+header ul li a{
+    text-decoration: none;
+}
+
+header ul li a:hover{
+    color: hsl(0, 94%, 66%);
+}
