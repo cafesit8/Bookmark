@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookmark</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/section.css">
+    <link rel="stylesheet" href="styles/section2.css">
+    <link rel="stylesheet" href="styles/section3.css">
 </head>
 <body>
     <header>
@@ -34,6 +37,108 @@
         </div>
         <div class="first-section__figure"></div>
     </section>
-    <script src="scripts/main.js"></script>
+    <section class="second-section">
+        <article class="second-section__information">
+            <div class="second-section__information__text">
+                <h2>Features</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tempora modi quos sequi nobis nesciunt, obcaecati dolores quasi voluptas magnam neque cupiditate? Sint omnis repellat sapiente, cum ullam odit doloribus?</p>
+            </div>
+            <div class="second-section__information__subtitles">
+                <ul>
+                    <li id="article" class="active">Simple Bookmarking</li>
+                    <li id="article" class="">Speedy Searching</li>
+                    <li id="article" class="">Easy Sharing</li>
+                </ul>
+            </div>
+        </article>
+        <article class="second-section__content-Total">
+            <article class="second-section__content active" id="content" data-aos="fade-left">
+                <div class="second-section__content__img">
+                    <img src="images/illustration-features-tab-1.svg" alt="">
+                </div>
+                <div class="second-section__content__text">
+                    <h2>Bookmark in one click</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit beatae maxime dolores dignissimos tempora! Dolore illo distinctio dolorem. Nisi, accusantium? Nisi ad alias magnam repellendus dolores error itaque accusantium similique.</p>
+                    <div class="second-section__content__text__button">
+                        <a href="">Here Info</a>
+                    </div>
+                </div>
+            </article>
+            <article class="second-section__content" id="content" data-aos="fade-left">
+                <div class="second-section__content__img">
+                    <img src="images/illustration-features-tab-1.svg" alt="">
+                </div>
+                <div class="second-section__content__text">
+                    <h2>Bookmark in two click</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit beatae maxime dolores dignissimos tempora! Dolore illo distinctio dolorem. Nisi, accusantium? Nisi ad alias magnam repellendus dolores error itaque accusantium similique.</p>
+                    <div class="second-section__content__text__button">
+                        <a href="">Here Info</a>
+                    </div>
+                </div>
+            </article>
+            <article class="second-section__content" id="content" data-aos="fade-left">
+                <div class="second-section__content__img">
+                    <img src="images/illustration-features-tab-1.svg" alt="">
+                </div>
+                <div class="second-section__content__text">
+                    <h2>Bookmark in three click</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit beatae maxime dolores dignissimos tempora! Dolore illo distinctio dolorem. Nisi, accusantium? Nisi ad alias magnam repellendus dolores error itaque accusantium similique.</p>
+                    <div class="second-section__content__text__button">
+                        <a href="">Here Info</a>
+                    </div>
+                </div>
+            </article>
+        </article>
+        <div class="second-section__figure"></div>
+    </section>
+    <section class="third-section">
+        <article class="third-section__text">
+            <h3>Download the extension</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae laborum eum maxime praesentium dolorem. Deleniti modi nisi rerum quaerat deserunt iure quas voluptatem dolor excepturi, aspernatur odit voluptate autem illo.</p>
+        </article>
+        <article class="third-section__cards">
+            <div class="third-section__cards__first">
+                <div class="third-section__cards__first__icon">
+                    <img src="images/logo-chrome.svg" alt="">
+                    <h4>Add to Chrome</h4>
+                    <span>Minimum version 62</span>
+                </div>
+                <img class="third-section__cards__first__img" src="images/bg-dots.svg" alt="">
+                <div class="third-section__cards__first__button">
+                    <a href="">Add & Install Extension</a>
+                </div>
+            </div>
+            <div class="third-section__cards__second">
+                <div class="third-section__cards__second__icon">
+                    <img src="images/logo-firefox.svg" alt="">
+                    <h4>Add to Chrome</h4>
+                    <span>Minimum version 62</span>
+                </div>
+                <img class="third-section__cards__second__img" src="images/bg-dots.svg" alt="">
+                <div class="third-section__cards__second__button">
+                    <a href="">Add & Install Extension</a>
+                </div>
+            </div>
+            <div class="third-section__cards__third">
+                <div class="third-section__cards__third__icon">
+                    <img src="images/logo-opera.svg" alt="">
+                    <h4>Add to Chrome</h4>
+                    <span>Minimum version 62</span>
+                </div>
+                <img class="third-section__cards__third__img" src="images/bg-dots.svg" alt="">
+                <div class="third-section__cards__third__button">
+                    <a href="">Add & Install Extension</a>
+                </div>
+            </div>
+        </article>
+    </section>
+    <script src="scripts/buttons.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 600,
+            once: true
+        });
+    </script>
 </body>
 </html>
