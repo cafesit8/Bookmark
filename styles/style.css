@@ -21,6 +21,10 @@ header{
     z-index: 10;
 }
 
+header .hamburguer{
+    display: none;
+}
+
 header img{
     width: 170px;
     height: 30px;
@@ -51,4 +55,59 @@ header ul li a{
 
 header ul li a:hover{
     color: hsl(0, 94%, 66%);
+}
+
+@media (max-width: 950px){
+
+    header{
+        padding: 0 5%;
+        z-index: 20;
+    }
+    header img{
+        width: 120px;
+        height: 20px;
+    }
+    header ul{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: -110%;
+        background-color: rgb(58, 66, 105, 0.9);
+        width: 100%;
+        height: 100vh;
+        z-index: -1;
+        transition: 0.3s;
+    }
+    header ul.active{
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    header ul li:not(:last-child) {
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+    header ul.active li a{
+        color: white;
+        font-weight: 100;
+        letter-spacing: 2px;
+    }
+    header .hamburguer{
+        display: block;
+        width: 25px;
+        height: 20px;
+        cursor: pointer;
+    }
+    header ul li:last-child a{
+        border: solid 2px white;
+        width: 80%;
+    }
+    header ul li:last-child a{
+        color: white;
+        border: solid 2px white;
+        padding: 7px 100px;  
+    }
 }

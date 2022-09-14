@@ -10,20 +10,24 @@
     <link rel="stylesheet" href="styles/section.css">
     <link rel="stylesheet" href="styles/section2.css">
     <link rel="stylesheet" href="styles/section3.css">
+    <link rel="stylesheet" href="styles/section4.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <header>
         <img src="images/logo-bookmark.svg" alt="">
-        <ul>
+        <ul class="" id="list">
             <li><a href="">FEATURES</a></li>
             <li><a href="">PRICING</a></li>
             <li><a href="">CONTACT</a></li>
             <li><a href="">LOGIN</a></li>
         </ul>
+        <img id="hamburguer" class="hamburguer" src="images/icon-hamburger.svg" alt="">
     </header>
     <section class="first-section">
         <div class="first-section__content-total">
-            <article class="first-section__content-total__information">
+            <article class="first-section__content-total__information animate__animated animate__fadeInLeft">
                 <h1>A Simple Bookmark Manager</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta maiores quasi architecto aliquam quas id. Rem, excepturi facere! Veniam beatae dolorem enim magni eius. Excepturi ab impedit inventore perferendis temporibus?</p>
                 <div class="first-section__content-total__information__contentA">
@@ -31,7 +35,7 @@
                     <a href="#">Get it on Firefox</a>
                 </div>
             </article>
-            <article class="first-section__content-total__img">
+            <article class="first-section__content-total__img animate__animated animate__fadeInRight">
                 <img src="images/illustration-hero.svg" alt="">
             </article>
         </div>
@@ -66,11 +70,11 @@
             </article>
             <article class="second-section__content" id="content" data-aos="fade-left">
                 <div class="second-section__content__img">
-                    <img src="images/illustration-features-tab-1.svg" alt="">
+                    <img src="images/illustration-features-tab-2.svg" alt="">
                 </div>
                 <div class="second-section__content__text">
-                    <h2>Bookmark in two click</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit beatae maxime dolores dignissimos tempora! Dolore illo distinctio dolorem. Nisi, accusantium? Nisi ad alias magnam repellendus dolores error itaque accusantium similique.</p>
+                    <h2>Intelligent Search</h2>
+                    <p>Loremitisi, accusantium? Nisi ad alias magnam repellendus dolores error itaque accusantium similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo repellendus animi autem qui sed similique.</p>
                     <div class="second-section__content__text__button">
                         <a href="">Here Info</a>
                     </div>
@@ -78,11 +82,11 @@
             </article>
             <article class="second-section__content" id="content" data-aos="fade-left">
                 <div class="second-section__content__img">
-                    <img src="images/illustration-features-tab-1.svg" alt="">
+                    <img src="images/illustration-features-tab-3.svg" alt="">
                 </div>
                 <div class="second-section__content__text">
-                    <h2>Bookmark in three click</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit beatae maxime dolores dignissimos tempora! Dolore illo distinctio dolorem. Nisi, accusantium? Nisi ad alias magnam repellendus dolores error itaque accusantium similique.</p>
+                    <h2>Check your bookmarks</h2>
+                    <p>Loremr consectetur, adipisicing elit. Eaque autem sunt, ipsa odio adipisci explicabo veniam accusamus praesentium, velit voluptatibus temporibus mollitia ipsum. Iure praesentium, ex dolorem cum eum maxime.</p>
                     <div class="second-section__content__text__button">
                         <a href="">Here Info</a>
                     </div>
@@ -112,7 +116,7 @@
                 <div class="third-section__cards__second__icon">
                     <img src="images/logo-firefox.svg" alt="">
                     <h4>Add to Chrome</h4>
-                    <span>Minimum version 62</span>
+                    <span>Minimum version 55</span>
                 </div>
                 <img class="third-section__cards__second__img" src="images/bg-dots.svg" alt="">
                 <div class="third-section__cards__second__button">
@@ -123,7 +127,7 @@
                 <div class="third-section__cards__third__icon">
                     <img src="images/logo-opera.svg" alt="">
                     <h4>Add to Chrome</h4>
-                    <span>Minimum version 62</span>
+                    <span>Minimum version 46</span>
                 </div>
                 <img class="third-section__cards__third__img" src="images/bg-dots.svg" alt="">
                 <div class="third-section__cards__third__button">
@@ -132,7 +136,67 @@
             </div>
         </article>
     </section>
+    <section class="fourth-section">
+        <article class="fourth-section__text">
+            <h3>Frequently Asked Questions</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta magnam saepe aliquam. Odio repellendus iusto, molestiae aliquid laudantium dolore nemo perspiciatis doloremque, illo, laboriosam voluptas delectus placeat quidem dignissimos asperiores.</p>
+        </article>
+        <article class="fourth-section__questions">
+            <div class="fourth-section__questions__one" id="comment-toggle">
+                <div class="fourth-section__questions__one__head">
+                    <h6>What is Bookmark?</h6>
+                    <img class="down" src="images/icon-arrow.svg" alt="">
+                    <img class="up" src="images/up-icon.png"  alt="">
+                </div>
+                <p class="" id="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod doloribus soluta ullam omnis ea delectus, aspernatur officiis laboriosam magnam tempora laborum. Quibusdam, sapiente vitae accusamus culpa praesentium modi tenetur! Nesciunt.</p>
+            </div>
+            <div class="fourth-section__questions__two" id="comment-toggle">
+                <div class="fourth-section__questions__two__head">
+                    <h6>How can I request a new browser?</h6>
+                    <img class="down" src="images/icon-arrow.svg" alt="">
+                    <img class="up" src="images/up-icon.png"  alt="">
+                </div>
+                <p class="" id="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod doloribus soluta ullam omnis ea delectus, aspernatur officiis laboriosam magnam tempora laborum. Quibusdam, sapiente vitae accusamus culpa praesentium modi tenetur! Nesciunt.</p>
+            </div>
+            <div class="fourth-section__questions__three" id="comment-toggle">
+                <div class="fourth-section__questions__three__head">
+                    <h6>Is there a mobile app?</h6>
+                    <img class="down" src="images/icon-arrow.svg" alt="">
+                    <img class="up" src="images/up-icon.png"  alt="">
+                </div>
+                <p class="" id="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod doloribus soluta ullam omnis ea delectus, aspernatur officiis laboriosam magnam tempora laborum. Quibusdam, sapiente vitae accusamus culpa praesentium modi tenetur! Nesciunt.</p>
+            </div>
+            <div class="fourth-section__questions__fourth" id="comment-toggle">
+                <div class="fourth-section__questions__fourth__head">
+                    <h6>What about other Chromium browsers?</h6>
+                    <img class="down" src="images/icon-arrow.svg" alt="">
+                    <img class="up" src="images/up-icon.png"  alt="">
+                </div>
+                <p class="" id="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod doloribus soluta ullam omnis ea delectus, aspernatur officiis laboriosam magnam tempora laborum. Quibusdam, sapiente vitae accusamus culpa praesentium modi tenetur! Nesciunt.</p>
+            </div>
+        </article>
+        <a class="fourth-section__MoreInfo" href="">More Info</a>
+    </section>
+    <footer class="footer">
+        <article class="footer__content">
+            <div class="footer__content__text">
+                <h6>35,000+ ALREADY JOINED</h6>
+                <h3>Stay up-to-date with what <br> we're doing</h3>
+            </div>
+            <div class="footer__content__contact">
+                <form id="footer__content__contact__form" action="#">
+                    <input class="email" type="text" name="" id="email" placeholder="email" onkeydown="validation()" required>
+                    <img class="error" src="images/icon-error.svg" alt="">
+                    <span id="text"></span>
+                    <input class="button" type="submit" name="submit" value="Contact Us">
+                </form>
+            </div>
+        </article>
+    </footer>
     <script src="scripts/buttons.js"></script>
+    <script src="scripts/comments-toggle.js"></script>
+    <script src="scripts/contact.js"></script>
+    <script src="scripts/navbar.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({

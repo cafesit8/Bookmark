@@ -1,0 +1,113 @@
+
+.fourth-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 7em;
+    position: relative;
+}
+
+.fourth-section__MoreInfo{
+    position: absolute;
+    bottom: 0;
+    text-decoration: none;
+    padding: 12px 22px;
+    background-color: #5368df;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.fourth-section__text{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.fourth-section__text h3{
+    font-size: 25px;
+    color: rgb(58, 66, 105);
+    font-weight: 500;
+}
+
+.fourth-section__text p{
+    color: #a09d9d;
+    margin-top: 20px;
+}
+
+.fourth-section__questions{
+    width: 50%;
+}
+
+.fourth-section__questions__one,
+.fourth-section__questions__two,
+.fourth-section__questions__three,
+.fourth-section__questions__fourth{
+    border-top: solid 1px #a09d9d;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 20px 0;
+}
+
+.fourth-section__questions__fourth{
+    border-bottom: solid 1px #a09d9d;
+}
+
+.fourth-section__questions__one__head,
+.fourth-section__questions__two__head,
+.fourth-section__questions__three__head,
+.fourth-section__questions__fourth__head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 0;
+    position: relative;
+}
+
+.fourth-section__questions__one__head h6,
+.fourth-section__questions__two__head h6,
+.fourth-section__questions__three__head h6,
+.fourth-section__questions__fourth__head h6{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.fourth-section__questions__one p,
+.fourth-section__questions__two p,
+.fourth-section__questions__three p,
+.fourth-section__questions__fourth p{
+    color: #a09d9d;
+    font-size: 15px;
+    margin-top: 30px;
+    display: none;
+    transition: 0.5s ease-in-out;
+}
+
+.up{
+    display: none;
+    width: 20px;
+}
+
+.up.active{
+    display: block;
+}
+
+.close{
+    display: none;
+}
+
+.fourth-section__questions__one p.active,
+.fourth-section__questions__two p.active,
+.fourth-section__questions__three p.active,
+.fourth-section__questions__fourth p.active{
+    display: block;
+    transition: 0.5s;
+}
+
