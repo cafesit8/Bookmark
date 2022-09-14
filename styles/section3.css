@@ -121,3 +121,30 @@
 .third-section__cards__third__img{
     margin: 20px 0;
 }
+
+@media (max-width: 950px){
+    .third-section{
+        margin: 3em 0;
+    }
+    .third-section__text{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .third-section__text h3{
+        font-size: 20px;
+    }
+    .third-section__text p{
+        font-size: 14px;
+    }
+    .third-section__cards{
+        flex-direction: column;
+        /* width: 100%; */
+        height: 100%;
+        padding: 0 10px;
+    }
+    .third-section__cards__first,
+    .third-section__cards__second,
+    .third-section__cards__third{
+        align-self: center;
+    }
+} 

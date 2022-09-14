@@ -111,3 +111,27 @@
     transition: 0.5s;
 }
 
+@media (max-width: 950px){
+    .fourth-section__text{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .fourth-section__text h3{
+        font-size: 20px;
+    }
+    .fourth-section__text p{
+        font-size: 14px;
+    }
+    .fourth-section__questions{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .fourth-section__questions h6{
+        font-size: 15px;
+    }
+    .fourth-section__MoreInfo{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+}
